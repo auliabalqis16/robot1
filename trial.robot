@@ -55,17 +55,17 @@ LoginTest
 #     click element               xpath://body/div[2]/div[1]/div[1]/div[1]
 #     click button                xpath://*[@id="app"]/div/div[2]/div[6]/div[1]/div/div/div[3]/div[2]/button
 
-# Pickup
-#     click element               xpath://body/div[@id='app']/div[@id='app']/div[1]/div[1]/div[1]/div[3]/div[1]/ul[18]/div[1]/li[1]/div[1]
-#     wait until page contains element        xpath://*[@id="pickup-manifest"]/div[1]/div[2]/div[2]/button
-#     click button                xpath://*[@id="pickup-manifest"]/div[1]/div[2]/div[2]/button
-#     wait until page contains element        xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[1]/div/div/div/div/img
-#     click element               xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[1]/div/div/div/div/img
-#     click element               xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[2]/div[1]/div/span
-#     input text                  xpath://*[@id="detailLayoutData"]/div[1]/div[6]/div/div[2]/div[1]/div/div/input         sdw
-#     click element               xpath://*[@id="detailLayoutData"]/div[1]/div[6]/div/div[2]/div[2]/div[1]/div/span
-#     input text                  xpath://*[@id="detailLayoutData"]/div[1]/div[8]/div/div[2]/input                        11LP1658724031378
-#     # click button                xpath://*[@id="detailLayoutData"]/div[2]/div/button/span/span
+Pickup
+    click element               xpath://body/div[@id='app']/div[@id='app']/div[1]/div[1]/div[1]/div[3]/div[1]/ul[18]/div[1]/li[1]/div[1]
+    wait until page contains element        xpath://*[@id="pickup-manifest"]/div[1]/div[2]/div[2]/button
+    click button                xpath://*[@id="pickup-manifest"]/div[1]/div[2]/div[2]/button
+    wait until page contains element        xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[1]/div/div/div/div/img
+    click element               xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[1]/div/div/div/div/img
+    click element               xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[2]/div[1]/div/span
+    input text                  xpath://*[@id="detailLayoutData"]/div[1]/div[6]/div/div[2]/div[1]/div/div/input         sdw
+    click element               xpath://*[@id="detailLayoutData"]/div[1]/div[6]/div/div[2]/div[2]/div[1]/div/span
+    input text                  xpath://*[@id="detailLayoutData"]/div[1]/div[8]/div/div[2]/input                        11LP1658724031378
+    # click button                xpath://*[@id="detailLayoutData"]/div[2]/div/button/span/span
 
 ShipmentTracking
     click element               xpath://li[@id='menu-8']
@@ -77,5 +77,5 @@ ShipmentTracking
 
 LogutTest
     click element               xpath://*[@id="key-footer"]/ul/li[2]
-    # click button                xpath://*[@id="app"]/div/div[2]/div[1]/div/div/div[3]/div[1]/button
+    click button                xpath://*[@id="app"]/div/div[2]/div[1]/div/div/div[3]/div[1]/button
     click button                xpath://button[@type='button']//span[contains(text(),'Keluar')]

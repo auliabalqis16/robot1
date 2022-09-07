@@ -1,398 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.8.10 on linux)" generated="20220906 15:02:17.583" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.8.10 on linux)" generated="20220907 10:29:55.887" rpa="false" schemaversion="3">
 <suite id="s1" name="Trial" source="/home/aulia/Documents/learning/robot1/trial.robot">
 <test id="s1-t1" name="LoginTest" line="11">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220906 15:02:17.797" level="INFO">Opening browser 'Chrome' to base url 'https://dev-genesis.lionparcel.com/'.</msg>
-<status status="PASS" starttime="20220906 15:02:17.796" endtime="20220906 15:02:55.771"/>
+<msg timestamp="20220907 10:29:56.104" level="INFO">Opening browser 'Chrome' to base url 'https://dev-genesis.lionparcel.com/'.</msg>
+<status status="PASS" starttime="20220907 10:29:56.103" endtime="20220907 10:29:58.621"/>
 </kw>
 <kw name="Set Selenium Speed" library="SeleniumLibrary">
 <arg>1s</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" starttime="20220906 15:02:55.772" endtime="20220906 15:02:55.773"/>
+<status status="PASS" starttime="20220907 10:29:58.622" endtime="20220907 10:29:58.623"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<msg timestamp="20220906 15:02:55.861" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</msg>
-<msg timestamp="20220906 15:02:55.863" level="FAIL">WebDriverException: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e0db9 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</msg>
-<status status="FAIL" starttime="20220906 15:02:55.774" endtime="20220906 15:02:55.866"/>
+<status status="PASS" starttime="20220907 10:29:58.624" endtime="20220907 10:29:59.741"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath://*[@id="app"]/div/form/div[1]/input</arg>
 <arg>poselang</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.869" endtime="20220906 15:02:55.870"/>
+<msg timestamp="20220907 10:29:59.743" level="INFO">Typing text 'poselang' into text field 'xpath://*[@id="app"]/div/form/div[1]/input'.</msg>
+<status status="PASS" starttime="20220907 10:29:59.741" endtime="20220907 10:30:02.973"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath://*[@id="app"]/div/form/div[2]/input</arg>
 <arg>Genesis123</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.870" endtime="20220906 15:02:55.870"/>
+<msg timestamp="20220907 10:30:02.975" level="INFO">Typing text 'Genesis123' into text field 'xpath://*[@id="app"]/div/form/div[2]/input'.</msg>
+<status status="PASS" starttime="20220907 10:30:02.973" endtime="20220907 10:30:06.127"/>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <arg>xpath://*[@id="app"]/div/form/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.918" endtime="20220906 15:02:55.918"/>
+<msg timestamp="20220907 10:30:06.128" level="INFO">Clicking button 'xpath://*[@id="app"]/div/form/button'.</msg>
+<status status="PASS" starttime="20220907 10:30:06.128" endtime="20220907 10:30:11.282"/>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <arg>xpath://img[@class="w-4"]</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.919" endtime="20220906 15:02:55.919"/>
+<status status="PASS" starttime="20220907 10:30:11.282" endtime="20220907 10:30:12.609"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://img[@class="w-4"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.921" endtime="20220906 15:02:55.921"/>
+<msg timestamp="20220907 10:30:12.610" level="INFO">Clicking element 'xpath://img[@class="w-4"]'.</msg>
+<status status="PASS" starttime="20220907 10:30:12.609" endtime="20220907 10:30:14.725"/>
 </kw>
-<status status="FAIL" starttime="20220906 15:02:17.794" endtime="20220906 15:02:55.923">WebDriverException: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e0db9 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</status>
+<status status="PASS" starttime="20220907 10:29:56.101" endtime="20220907 10:30:14.726"/>
 </test>
-<test id="s1-t2" name="ShipmentTracking" line="70">
+<test id="s1-t2" name="Pickup" line="58">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://body/div[@id='app']/div[@id='app']/div[1]/div[1]/div[1]/div[3]/div[1]/ul[18]/div[1]/li[1]/div[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220907 10:30:14.728" level="INFO">Clicking element 'xpath://body/div[@id='app']/div[@id='app']/div[1]/div[1]/div[1]/div[3]/div[1]/ul[18]/div[1]/li[1]/div[1]'.</msg>
+<status status="PASS" starttime="20220907 10:30:14.728" endtime="20220907 10:30:16.831"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="pickup-manifest"]/div[1]/div[2]/div[2]/button</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20220907 10:30:16.831" endtime="20220907 10:30:18.007"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="pickup-manifest"]/div[1]/div[2]/div[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220907 10:30:18.008" level="INFO">Clicking button 'xpath://*[@id="pickup-manifest"]/div[1]/div[2]/div[2]/button'.</msg>
+<status status="PASS" starttime="20220907 10:30:18.007" endtime="20220907 10:30:23.113"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[1]/div/div/div/div/img</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<msg timestamp="20220907 10:30:30.325" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220907 10:30:30.326" level="FAIL">Element 'xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[1]/div/div/div/div/img' did not appear in 5 seconds.</msg>
+<status status="FAIL" starttime="20220907 10:30:23.113" endtime="20220907 10:30:30.327"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[1]/div/div/div/div/img</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220907 10:30:30.329" endtime="20220907 10:30:30.330"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[2]/div[1]/div/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220907 10:30:30.330" endtime="20220907 10:30:30.330"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://*[@id="detailLayoutData"]/div[1]/div[6]/div/div[2]/div[1]/div/div/input</arg>
+<arg>sdw</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220907 10:30:30.331" endtime="20220907 10:30:30.331"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="detailLayoutData"]/div[1]/div[6]/div/div[2]/div[2]/div[1]/div/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220907 10:30:30.331" endtime="20220907 10:30:30.331"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://*[@id="detailLayoutData"]/div[1]/div[8]/div/div[2]/input</arg>
+<arg>11LP1658724031378</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220907 10:30:30.331" endtime="20220907 10:30:30.332"/>
+</kw>
+<status status="FAIL" starttime="20220907 10:30:14.727" endtime="20220907 10:30:30.333">Element 'xpath://*[@id="detailLayoutData"]/div[1]/div[5]/div/div[2]/div[1]/div/div/div/div/img' did not appear in 5 seconds.</status>
+</test>
+<test id="s1-t3" name="ShipmentTracking" line="70">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://li[@id='menu-8']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220906 15:02:55.933" level="INFO">Clicking element 'xpath://li[@id='menu-8']'.</msg>
-<msg timestamp="20220906 15:02:55.954" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</msg>
-<msg timestamp="20220906 15:02:55.955" level="FAIL">WebDriverException: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</msg>
-<status status="FAIL" starttime="20220906 15:02:55.932" endtime="20220906 15:02:55.960"/>
+<msg timestamp="20220907 10:30:30.336" level="INFO">Clicking element 'xpath://li[@id='menu-8']'.</msg>
+<status status="PASS" starttime="20220907 10:30:30.335" endtime="20220907 10:30:32.451"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://*[@id="menu-8"]/div[2]/div/div/div[3]/div</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.960" endtime="20220906 15:02:55.960"/>
+<msg timestamp="20220907 10:30:32.452" level="INFO">Clicking element 'xpath://*[@id="menu-8"]/div[2]/div/div/div[3]/div'.</msg>
+<status status="PASS" starttime="20220907 10:30:32.451" endtime="20220907 10:30:34.552"/>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <arg>xpath://*[@id="app"]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/input</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.961" endtime="20220906 15:02:55.961"/>
+<status status="PASS" starttime="20220907 10:30:34.553" endtime="20220907 10:30:36.816"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath://*[@id="app"]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/input</arg>
 <arg>11LP1658724031378</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.961" endtime="20220906 15:02:55.961"/>
+<msg timestamp="20220907 10:30:36.817" level="INFO">Typing text '11LP1658724031378' into text field 'xpath://*[@id="app"]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/input'.</msg>
+<status status="PASS" starttime="20220907 10:30:36.816" endtime="20220907 10:30:40.050"/>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <arg>xpath://span[contains(text(),'Lacak')]</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.966" endtime="20220906 15:02:55.966"/>
+<status status="PASS" starttime="20220907 10:30:40.051" endtime="20220907 10:30:41.101"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://span[contains(text(),'Lacak')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.967" endtime="20220906 15:02:55.967"/>
+<msg timestamp="20220907 10:30:41.102" level="INFO">Clicking element 'xpath://span[contains(text(),'Lacak')]'.</msg>
+<status status="PASS" starttime="20220907 10:30:41.101" endtime="20220907 10:30:43.216"/>
 </kw>
-<status status="FAIL" starttime="20220906 15:02:55.930" endtime="20220906 15:02:55.975">WebDriverException: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</status>
+<status status="PASS" starttime="20220907 10:30:30.334" endtime="20220907 10:30:43.217"/>
 </test>
-<test id="s1-t3" name="LogutTest" line="78">
+<test id="s1-t4" name="LogutTest" line="78">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://*[@id="key-footer"]/ul/li[2]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220906 15:02:55.981" level="INFO">Clicking element 'xpath://*[@id="key-footer"]/ul/li[2]'.</msg>
-<msg timestamp="20220906 15:02:55.994" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</msg>
-<msg timestamp="20220906 15:02:55.995" level="FAIL">WebDriverException: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</msg>
-<status status="FAIL" starttime="20220906 15:02:55.979" endtime="20220906 15:02:55.996"/>
+<msg timestamp="20220907 10:30:43.220" level="INFO">Clicking element 'xpath://*[@id="key-footer"]/ul/li[2]'.</msg>
+<status status="PASS" starttime="20220907 10:30:43.220" endtime="20220907 10:30:45.357"/>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
-<arg>xpath://button[@type='button']//span[contains(text(),'Keluar')]</arg>
+<arg>xpath://*[@id="app"]/div/div[2]/div[1]/div/div/div[3]/div[1]/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220906 15:02:55.997" endtime="20220906 15:02:55.997"/>
+<msg timestamp="20220907 10:30:45.358" level="INFO">Clicking button 'xpath://*[@id="app"]/div/div[2]/div[1]/div/div/div[3]/div[1]/button'.</msg>
+<status status="PASS" starttime="20220907 10:30:45.358" endtime="20220907 10:30:50.509"/>
 </kw>
-<status status="FAIL" starttime="20220906 15:02:55.976" endtime="20220906 15:02:55.998">WebDriverException: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</status>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220907 10:30:50.509" endtime="20220907 10:30:51.632"/>
+</kw>
+<status status="PASS" starttime="20220907 10:30:43.218" endtime="20220907 10:30:51.633"/>
 </test>
-<status status="FAIL" starttime="20220906 15:02:17.584" endtime="20220906 15:02:56.006"/>
+<status status="FAIL" starttime="20220907 10:29:55.888" endtime="20220907 10:30:51.634"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="3" skip="0">All Tests</stat>
+<stat pass="3" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="3" skip="0" id="s1" name="Trial">Trial</stat>
+<stat pass="3" fail="1" skip="0" id="s1" name="Trial">Trial</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20220906 15:02:55.861" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</msg>
-<msg timestamp="20220906 15:02:55.954" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</msg>
-<msg timestamp="20220906 15:02:55.994" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
-  (Session info: chrome=104.0.5112.101)
-Stacktrace:
-#0 0x55a12c5e8cd3 &lt;unknown&gt;
-#1 0x55a12c3f07ff &lt;unknown&gt;
-#2 0x55a12c3dfca4 &lt;unknown&gt;
-#3 0x55a12c3e06b2 &lt;unknown&gt;
-#4 0x55a12c3e24d2 &lt;unknown&gt;
-#5 0x55a12c3da756 &lt;unknown&gt;
-#6 0x55a12c3f1d52 &lt;unknown&gt;
-#7 0x55a12c458521 &lt;unknown&gt;
-#8 0x55a12c445aa3 &lt;unknown&gt;
-#9 0x55a12c41b3fa &lt;unknown&gt;
-#10 0x55a12c41c555 &lt;unknown&gt;
-#11 0x55a12c6302bd &lt;unknown&gt;
-#12 0x55a12c634418 &lt;unknown&gt;
-#13 0x55a12c61a36e &lt;unknown&gt;
-#14 0x55a12c635078 &lt;unknown&gt;
-#15 0x55a12c60ebb0 &lt;unknown&gt;
-#16 0x55a12c651d58 &lt;unknown&gt;
-#17 0x55a12c651ed8 &lt;unknown&gt;
-#18 0x55a12c66bcfd &lt;unknown&gt;
-#19 0x7f04955c0609 &lt;unknown&gt;
-</msg>
 </errors>
 </robot>

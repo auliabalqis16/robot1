@@ -78,4 +78,5 @@ ShipmentTracking
 LogutTest
     click element               xpath://*[@id="key-footer"]/ul/li[2]
     click button                xpath://*[@id="app"]/div/div[2]/div[1]/div/div/div[3]/div[1]/button
-    click button                xpath://button[@type='button']//span[contains(text(),'Keluar')]
+    # click button                xpath://button[@type='button']//span[contains(text(),'Keluar')]
+    close browser
